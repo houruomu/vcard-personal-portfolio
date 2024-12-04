@@ -1,0 +1,23 @@
+/* Ensure the anchor tag fills the entire service-item */
+.service-link {
+    display: block;
+    text-decoration: none; /* Remove underline from link text */
+    color: inherit; /* Inherit text color */
+  }
+  
+  /* Optional: Add hover effect */
+  .service-link:hover {
+    /* Add any hover effects you like */
+  }
+  
+  /* Existing styles for service-item */
+  .service-item {
+    /* Your existing styles */
+  }
+  
+  /* Optional: Add hover effect to service-item */
+  .service-item:hover {
+    /* Visual feedback on hover */
+    background-color: #f9f9f9; /* Example background color on hover */
+    transition: background-color 0.3s ease;
+  }

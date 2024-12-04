@@ -1879,4 +1879,22 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .timeline-text { max-width: 700px; }
 
+
+
+  /**
+   * fix
+   */
+
+   .avatar-box {
+    background: var(--bg-gradient-onyx); /* Background gradient */
+    border-radius: 15px; /* Rounded corners for rectangular shape */
+    overflow: hidden; /* Ensures the image stays within the rounded rectangle */
+    display: inline-block; /* Makes the container inline with defined dimensions */
+  }
+  
+  .avatar-box img {
+    width: 100%; /* Scale the image to fit the container's width */
+    height: 100%; /* Scale the image to fit the container's height */
+    object-fit: cover; /* Ensures the image is cropped correctly */
+  }
 }

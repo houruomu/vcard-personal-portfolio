@@ -1,0 +1,69 @@
+/* publications.css */
+
+/* Reset list styles */
+.publications {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style each publication item */
+.publications li {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #e0e0e0; /* Light grey text for dark background */
+  border-bottom: 1px solid #444444; /* Thin line to separate items */
+}
+
+/* Ensure spans and links are inline */
+.publications span,
+.publications a {
+  display: inline; /* Prevent line breaks */
+}
+
+/* Authors styling */
+.publications .authors {
+  font-weight: bold;
+  color: #ffffff; /* White color for authors */
+}
+
+/* Highlight your name */
+.publications .authors .your-name {
+  color: hsl(45, 100%, 72%); /* Gold color to highlight your name */
+}
+
+/* Title styling */
+.publications .title {
+  font-style: italic;
+  color: #f0f0f0; /* Slightly off-white for titles */
+}
+
+/* Conference name styling */
+.publications .conference {
+  font-style: italic;
+  color: #d0d0d0; /* Lighter grey for conference names */
+}
+
+/* Award highlight styling */
+.publications .award {
+  display: block;
+  margin-top: 5px;
+  color: hsl(45, 100%, 72%); /* Gold color for awards */
+}
+
+/* Link styling */
+.publications a {
+  color: hsla(0, 0%, 84%, 0.7); /* Dodger blue for links */
+  text-decoration: none;
+}
+
+.publications a:hover {
+  text-decoration: underline;
+}
+
+/* Optional: Adjust body background color if not already set */
+body {
+  background-color: #121212; /* Very dark grey background */
+}
